@@ -21,7 +21,7 @@ Link: https://www.usdebtclock.org
 
 ```
 
-    - How could this data visualization have been improved (in terms of accessibility, reproducibility, equity)?
+- How could this data visualization have been improved (in terms of accessibility, reproducibility, equity)?
 
 ```
         Annual CO₂ emissions (Our World in Data)
