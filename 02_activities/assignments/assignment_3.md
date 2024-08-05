@@ -14,7 +14,7 @@
         - The visualization treats all data points equally and presents information in a neutral manner. Users from different regions can access the same level of detail and interactive features, which supports a fair representation of global CO2 emissions data.
 
         U.S. Debt Clock
-Link: https://www.usdebtclock.org
+        Link: https://www.usdebtclock.org
         - The cluttered design and rapidly changing numbers make the visualization difficult to interpret, reducing accessibility.
         - The lack of clear data sources and explanations makes it hard to reproduce the visualization.
         - The visualization does not provide a comprehensive view of the data, potentially leading to biased interpretations.
@@ -31,7 +31,7 @@ Link: https://www.usdebtclock.org
         - Including more context about the data sources, such as explanations of how different countries report CO2 emissions, would provide a more equitable understanding of the data. This would help users better interpret the data's relevance and potential biases.
 
         U.S. Debt Clock
-Link: https://www.usdebtclock.org
+        Link: https://www.usdebtclock.org
         - Using a simpler design with better organization would improve accessibility.
         - Clearly citing data sources would enhance reproducibility.
         - Including all relevant data points and explanations would ensure a more equitable representation.
