@@ -6,19 +6,36 @@
 - Let’s return to the data visualizations we evaluated for Assignment 2.  
 - For each visualization: 
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) whether or not you think this data visualization is accessible, reproducible, and equitable. 
-        ```
-        Your answer...
+```
+        Annual CO₂ emissions (Our World in Data)
+        Link: https://ourworldindata.org/grapher/annual-co2-emissions-per-country?country=~OWID_WRL
+        - The visualization is designed with accessibility in mind. It uses color schemes that are colorblind-friendly, which helps users with color vision deficiencies. The interactive elements allow users to explore data for specific countries and periods, providing a tailored view that can enhance comprehension.
+        - The data and the visualization are publicly available online, and the source of the data is clearly cited. Users can access the underlying data and recreate similar visualizations, supporting transparency and verification.
+        - The visualization treats all data points equally and presents information in a neutral manner. Users from different regions can access the same level of detail and interactive features, which supports a fair representation of global CO2 emissions data.
 
+        U.S. Debt Clock
+        Link: https://www.usdebtclock.org
+        - The cluttered design and rapidly changing numbers make the visualization difficult to interpret, reducing accessibility.
+        - The lack of clear data sources and explanations makes it hard to reproduce the visualization.
+        - The visualization does not provide a comprehensive view of the data, potentially leading to biased interpretations.
 
+```
 
-        ```
-    - How could this data visualization have been improved (in terms of accessibility, reproducibility, equity)?  
-        ```
-        Your answer...
+- How could this data visualization have been improved (in terms of accessibility, reproducibility, equity)?
 
+```
+        Annual CO₂ emissions (Our World in Data)
+        Link: https://ourworldindata.org/grapher/annual-co2-emissions-per-country?country=~OWID_WRL
+        - To further enhance accessibility, the addition of textual descriptions or alternative text for key data points and interactive elements would benefit users who rely on screen readers or have other visual impairments.
+        - To improve reproducibility, providing downloadable datasets directly on the visualization page would allow users to conduct their own analyses or update the visualization with more recent data. Clear documentation on how to replicate the visualization would also be helpful.
+        - Including more context about the data sources, such as explanations of how different countries report CO2 emissions, would provide a more equitable understanding of the data. This would help users better interpret the data's relevance and potential biases.
 
-
-        ```
+        U.S. Debt Clock
+        Link: https://www.usdebtclock.org
+        - Using a simpler design with better organization would improve accessibility.
+        - Clearly citing data sources would enhance reproducibility.
+        - Including all relevant data points and explanations would ensure a more equitable representation.
+```
 
 - Word count should not exceed (as a maximum) 300 words for each visualization. 
 
@@ -46,9 +63,9 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-3`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [x] Create a branch called `assignment-3`.
+- [x] Ensure that the repository is public.
+- [x] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [x] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack at `#cohort-3-help`. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
