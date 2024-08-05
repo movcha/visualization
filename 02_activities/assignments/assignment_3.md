@@ -6,7 +6,7 @@
 - Let’s return to the data visualizations we evaluated for Assignment 2.  
 - For each visualization: 
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) whether or not you think this data visualization is accessible, reproducible, and equitable. 
-        ```
+```
         Annual CO₂ emissions (Our World in Data)
         Link: https://ourworldindata.org/grapher/annual-co2-emissions-per-country?country=~OWID_WRL
         - The visualization is designed with accessibility in mind. It uses color schemes that are colorblind-friendly, which helps users with color vision deficiencies. The interactive elements allow users to explore data for specific countries and periods, providing a tailored view that can enhance comprehension.
@@ -19,10 +19,11 @@ Link: https://www.usdebtclock.org
         - The lack of clear data sources and explanations makes it hard to reproduce the visualization.
         - The visualization does not provide a comprehensive view of the data, potentially leading to biased interpretations.
 
+```
 
-        ```
-    - How could this data visualization have been improved (in terms of accessibility, reproducibility, equity)?  
-        ```
+    - How could this data visualization have been improved (in terms of accessibility, reproducibility, equity)?
+
+```
         Annual CO₂ emissions (Our World in Data)
         Link: https://ourworldindata.org/grapher/annual-co2-emissions-per-country?country=~OWID_WRL
         - To further enhance accessibility, the addition of textual descriptions or alternative text for key data points and interactive elements would benefit users who rely on screen readers or have other visual impairments.
@@ -34,8 +35,7 @@ Link: https://www.usdebtclock.org
         - Using a simpler design with better organization would improve accessibility.
         - Clearly citing data sources would enhance reproducibility.
         - Including all relevant data points and explanations would ensure a more equitable representation.
-
-        ```
+```
 
 - Word count should not exceed (as a maximum) 300 words for each visualization. 
 
