@@ -44,7 +44,47 @@ Feature Selection:
 - I included the siteName, collectionDate, and eColi levels from the dataset. These features are directly relevant to assessing water quality over time at different locations.
 
 Underwater Labour:
-- Significant effort was put into data collection, cleaning, and ensuring the visualization adheres to best practices for accessibility and interpretability.
+- Significant effort was put into data collection, cleaning, and ensuring the visualization adheres to best practices for accessibility and interoperability.
+
+### Visualization 2: Excel Visualization
+![image](https://github.com/user-attachments/assets/4b848d4f-01c8-4d00-909c-e286bc8ca383)
+
+Software Used:
+- Microsoft Excel
+
+Intended Audience:
+- The intended audience for this visualization is myself and my friends. We are interested in combining and comparing trends of a few specific Toronto beach sites over the years.
+
+Information or Message:
+- The goal of this visualization is to display the average E. Coli levels at selected Toronto beach sites over time. This helps us easily compare water quality trends at our chosen locations and identify any notable patterns or changes.
+
+Design Principles:
+- The focus is on combining meaningful data from specific sites of interest.
+- Different colors represent different beach sites, making it easier to distinguish between them.
+- The chart is designed to be clear and straightforward, with a legend and axis labels to guide the viewer.
+
+These principles were applied by:
+- Choosing a line chart to effectively represent changes over time.
+- Assigning distinct colors to each beach site for clear differentiation.
+- Including a legend and properly labeling the axes to ensure the chart is easy to understand.
+
+Reproducibility:
+- Ensure the dataset is cleaned and properly formatted.
+- Use a Pivot Table to summarize the average E. Coli levels for each site and year.
+- Create the line chart from the Pivot Table, ensuring the data is accurately represented.
+- While Excel visualizations are not as easily reproducible as code-based visualizations, documenting these steps ensures that others can replicate the process manually. And I can give my file to update it in future to have the exactly the same visual.
+
+Accessibility:
+- The choice of colors was made to be as colorblind-friendly as possible.
+
+Impacted Individuals and Communities:
+- This visualization primarily impacts us, as we are interested in understanding the water quality trends at our selected Toronto beach sites. By providing clear and accessible data, it helps us make informed decisions and better understand the environmental conditions of our favorite beaches.
+
+Feature Selection:
+- The features included in the visualization are siteName (the beach site), collectionDate (yearly averages), and average eColi levels. These features are crucial for understanding water quality trends at the different beaches over time.
+
+Underwater Labour:
+- Significant effort was put into data collection, cleaning and organizing it, creating the Pivot Table.
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
