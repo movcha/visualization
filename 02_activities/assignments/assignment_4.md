@@ -8,7 +8,7 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 
 ### Visualization 1: Python Visualization
-![image](https://github.com/user-attachments/assets/636cc019-7c04-46b7-b8a3-071925749956)
+![image](https://github.com/user-attachments/assets/9b2b6426-b1c3-4990-be33-13df8d023fed)
 
 Software Used:
 - Python with libraries such as Pandas, Seaborn, and Matplotlib.
