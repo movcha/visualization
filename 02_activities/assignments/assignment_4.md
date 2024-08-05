@@ -6,24 +6,85 @@
 - We will finish this class by giving you the chance to use what you have learned in a practical context, by creating data visualizations from raw data. 
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
-- For each visualization, describe and justify: 
-    > What software did you use to create your data visualization?
 
-    > Who is your intended audience? 
-    
-    > What information or message are you trying to convey with your visualization? 
-    
-    > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
-    
-    > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
-    
-    > How did you ensure that your data visualization is accessible?  
-    
-    > Who are the individuals and communities who might be impacted by your visualization?  
-    
-    > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
-    
-    > What ‘underwater labour’ contributed to your final data visualization product?
+### Visualization 1: Python Visualization
+![image](https://github.com/user-attachments/assets/9b2b6426-b1c3-4990-be33-13df8d023fed)
+
+Software Used:
+- Python with libraries such as Pandas, Seaborn, and Matplotlib.
+
+Intended Audience:
+- Public health officials, environmental scientists, and the general public who are interested in the water quality of Toronto beaches.
+
+Information or Message:
+- The visualization aims to show the trends in E. Coli levels at various Toronto beach sites over the years. This information can help in understanding the long-term water quality and identifying any problematic sites that may need intervention.
+
+Design Principles:
+- The visualization focuses on meaningful data that can influence public health decisions.
+- Different colors are used to represent varying levels of E. Coli to make the distinction clear and intuitive.
+- The design is clean and uncluttered, with each beach site's data separated into individual small graphs for clarity.
+
+The principles were applied by:
+- Using a consistent color scheme to indicate E. Coli levels.
+- Arranging the plots in a grid to facilitate easy comparison between different sites.
+- Ensuring labels and titles are clear and informative.
+
+Reproducibility:
+- The code used to create the visualization is fully reproducible, as it includes all necessary steps from data loading to plotting.
+- The use of standard libraries ensures that anyone with a Python environment can replicate the results.
+
+Accessibility:
+- The visualization uses color schemes that are colorblind-friendly.
+- Titles and labels are used to ensure that even those with visual impairments can understand the data when using screen readers.
+
+Impacted Individuals and Communities:
+- Communities around Toronto beaches and public health stakeholders will be impacted by this visualization. It can inform them about water safety and potential health risks.
+
+Feature Selection:
+- I included the siteName, collectionDate, and eColi levels from the dataset. These features are directly relevant to assessing water quality over time at different locations.
+
+Underwater Labour:
+- Significant effort was put into data collection, cleaning, and ensuring the visualization adheres to best practices for accessibility and interoperability.
+
+### Visualization 2: Excel Visualization
+![image](https://github.com/user-attachments/assets/4b848d4f-01c8-4d00-909c-e286bc8ca383)
+
+Software Used:
+- Microsoft Excel
+
+Intended Audience:
+- The intended audience for this visualization is myself and my friends. We are interested in combining and comparing trends of a few specific Toronto beach sites over the years.
+
+Information or Message:
+- The goal of this visualization is to display the average E. Coli levels at selected Toronto beach sites over time. This helps us easily compare water quality trends at our chosen locations and identify any notable patterns or changes.
+
+Design Principles:
+- The focus is on combining meaningful data from specific sites of interest.
+- Different colors represent different beach sites, making it easier to distinguish between them.
+- The chart is designed to be clear and straightforward, with a legend and axis labels to guide the viewer.
+
+These principles were applied by:
+- Choosing a line chart to effectively represent changes over time.
+- Assigning distinct colors to each beach site for clear differentiation.
+- Including a legend and properly labeling the axes to ensure the chart is easy to understand.
+
+Reproducibility:
+- Ensure the dataset is cleaned and properly formatted.
+- Use a Pivot Table to summarize the average E. Coli levels for each site and year.
+- Create the line chart from the Pivot Table, ensuring the data is accurately represented.
+- While Excel visualizations are not as easily reproducible as code-based visualizations, documenting these steps ensures that others can replicate the process manually. And I can give my file to update it in future to have the exactly the same visual.
+
+Accessibility:
+- The choice of colors was made to be as colorblind-friendly as possible.
+
+Impacted Individuals and Communities:
+- This visualization primarily impacts us, as we are interested in understanding the water quality trends at our selected Toronto beach sites. By providing clear and accessible data, it helps us make informed decisions and better understand the environmental conditions of our favorite beaches.
+
+Feature Selection:
+- The features included in the visualization are siteName (the beach site), collectionDate (yearly averages), and average eColi levels. These features are crucial for understanding water quality trends at the different beaches over time.
+
+Underwater Labour:
+- Significant effort was put into data collection, cleaning and organizing it, creating the Pivot Table.
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
@@ -61,9 +122,9 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-4`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [X] Create a branch called `assignment-4`.
+- [X] Ensure that the repository is public.
+- [X] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [X] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack at `#cohort-3-help`. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
