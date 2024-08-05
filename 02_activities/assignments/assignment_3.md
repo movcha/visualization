@@ -7,16 +7,33 @@
 - For each visualization: 
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) whether or not you think this data visualization is accessible, reproducible, and equitable. 
         ```
-        Your answer...
+        Annual CO₂ emissions (Our World in Data)
+        Link: https://ourworldindata.org/grapher/annual-co2-emissions-per-country?country=~OWID_WRL
+        - The visualization is designed with accessibility in mind. It uses color schemes that are colorblind-friendly, which helps users with color vision deficiencies. The interactive elements allow users to explore data for specific countries and periods, providing a tailored view that can enhance comprehension.
+        - The data and the visualization are publicly available online, and the source of the data is clearly cited. Users can access the underlying data and recreate similar visualizations, supporting transparency and verification.
+        - The visualization treats all data points equally and presents information in a neutral manner. Users from different regions can access the same level of detail and interactive features, which supports a fair representation of global CO2 emissions data.
 
+        U.S. Debt Clock
+Link: https://www.usdebtclock.org
+        - The cluttered design and rapidly changing numbers make the visualization difficult to interpret, reducing accessibility.
+        - The lack of clear data sources and explanations makes it hard to reproduce the visualization.
+        - The visualization does not provide a comprehensive view of the data, potentially leading to biased interpretations.
 
 
         ```
     - How could this data visualization have been improved (in terms of accessibility, reproducibility, equity)?  
         ```
-        Your answer...
+        Annual CO₂ emissions (Our World in Data)
+        Link: https://ourworldindata.org/grapher/annual-co2-emissions-per-country?country=~OWID_WRL
+        - To further enhance accessibility, the addition of textual descriptions or alternative text for key data points and interactive elements would benefit users who rely on screen readers or have other visual impairments.
+        - To improve reproducibility, providing downloadable datasets directly on the visualization page would allow users to conduct their own analyses or update the visualization with more recent data. Clear documentation on how to replicate the visualization would also be helpful.
+        - Including more context about the data sources, such as explanations of how different countries report CO2 emissions, would provide a more equitable understanding of the data. This would help users better interpret the data's relevance and potential biases.
 
-
+        U.S. Debt Clock
+Link: https://www.usdebtclock.org
+        - Using a simpler design with better organization would improve accessibility.
+        - Clearly citing data sources would enhance reproducibility.
+        - Including all relevant data points and explanations would ensure a more equitable representation.
 
         ```
 
